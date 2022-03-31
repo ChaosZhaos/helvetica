@@ -1,0 +1,79 @@
+body {
+	font-family: Helvetica;
+	font-weight: bold;
+	width: 100vw;
+}
+
+.top {
+	position: relative;
+	width: 1440px;
+	height: 1236px;
+}
+
+.sculp	{
+	position: absolute;
+	width: 2178px;
+	height: 1539px;
+	left: -873px;
+	top: -77px;
+	z-index: -1;
+
+	background: url(images/dav_1.png) no-repeat center; 
+	background-size: cover;
+}
+
+.cir {
+	position: absolute;
+	width: 1249px;
+	height: 1249px;
+	right: -100px;
+	top: -59px;
+	z-index: -2;
+
+	background: url(images/cir_1.png) no-repeat center;
+
+}
+
+.newstart {
+	font-family: Noto Sans S Chinese;
+	font-size: 74px;
+	font-style: normal;
+	font-weight: 350;
+	line-height: 111px;
+	letter-spacing: -0.045em;
+	text-align: right;
+
+	margin-top: 750px;
+	margin-right: 40px;
+
+
+}
+
+
+.menu {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 40px;
+
+}
+
+.menu ul {
+	list-style: none;
+	display: flex;
+	margin-right: 30px;
+
+}
+
+.menu li {
+	margin-left: 30px;
+	font-size: 24px;
+	line-height: 32px;
+	letter-spacing: -0.045em;
+
+}
+
+a {
+	text-decoration: none ;
+	color: #000000;
+}
+
